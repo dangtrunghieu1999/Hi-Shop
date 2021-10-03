@@ -1,0 +1,31 @@
+platform :ios, '10.0'
+
+target 'Hi-Shop' do
+  use_frameworks!
+    pod 'SnapKit'
+    pod 'SDWebImage', '5.10.0'
+    pod 'IQKeyboardManagerSwift'
+    pod 'NVActivityIndicatorView'
+    pod 'Alamofire', '4.8.1'
+    pod 'SwiftyJSON'
+    pod 'JGProgressHUD'
+    pod 'Toast-Swift'
+    pod 'KeychainAccess'
+    pod 'Localize-Swift'
+    pod 'Shimmer'
+    pod 'IGListKit'
+    pod 'GooglePlaces'
+    pod 'HCSStarRatingView'
+    pod 'FSPagerView'
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'FBSDKCoreKit'
+    pod 'FBSDKLoginKit'
+    pod 'SMSegmentView'
+    pod 'Firebase/Messaging'
+    pod 'Firebase/Analytics'
+    pod 'Firebase/Database'
+    pod 'GoogleSignIn', '~> 4.0'
+    pod "MomoiOSSwiftSdk", :git => "https://github.com/momodevelopment/MomoiOSSwiftSdk.git", :branch => "master", submodules: true
+    pod 'NotificationBannerSwift', '2.5.0'
+end
